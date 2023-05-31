@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>HMusic</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="top">
+            <div class="logo">
+                <img class="logoo" src="img/logo.png">
+            </div>
+            <i class="bx bx-menu" id="btn"></i>
+        </div>
+        <div class="user">
+            <img src="img/user1.png" alt="admin" class="user-img">
+            <div>
+                <p class="bold">Clint B.</p>
+                <p>Admin</p>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class='bx bx-home-alt-2'></i>
+                    <span class="nav-item">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <a href="../Trends/trends.html">
+                    <i class='bx bx-trending-up'></i>
+                    <span class="nav-item">Trends</span>
+                </a>
+                <span class="tooltip">Trends</span>
+            </li>
+            <li>
+              <a href="../Search/search.html">
+                  <i class='bx bx-search-alt-2'></i>
+                  <span class="nav-item">Search</span>
+              </a>
+              <span class="tooltip">Search</span>
+          </li>
+            <li>
+                <a href="../FavoriteSongs/favorite.html">
+                    <i class='bx bx-heart'></i>
+                    <span class="nav-item">Favorite Songs</span>
+                </a>
+                <span class="tooltip">Favorite Songs</span>
+            </li>
+            <li>
+                <a href="../WeeklyMix/mix.html">
+                    <i class='bx bx-music'></i>
+                    <span class="nav-item">Weekly mix</span>
+                </a>
+                <span class="tooltip">Weekly mix</span>
+            </li>
+            <li>
+                <a href="../YourPlaylist/playlist.html">
+                    <i class='bx bxs-playlist'></i>
+                    <span class="nav-item">Your Playlists</span>
+                </a>
+                <span class="tooltip">Your Playlists</span>
+            </li>
+            <li>
+                <a href="../ArtistOf2022/artist.html">
+                    <i class='bx bx-user-circle'></i>
+                    <span class="nav-item">Artist of 2022</span>
+                </a>
+                <span class="tooltip">Artist of 2022</span>
+            </li>
+            <br>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="slider">
+            <img src="img/1.png" alt="Image 1">
+            <img src="img/2.png" alt="Image 2">
+            <img src="img/3.png" alt="Image 3">
+        </div>
+        
+        <br><br>
+
+        <h1 class="title">Suggested for you</h1>
+        <br>
+        <div class="music-cards">
+            <div class="music-card">
+              <img src="img/cover1.jpg" alt="Music Cover 1">
+              <a href="card1.html" class="play-button"></a>
+            </div>
+            <div class="music-card">
+              <img src="img/cover2.jpeg" alt="Music Cover 2">
+              <a href="card2.html" class="play-button"></a>
+            </div>
+            <div class="music-card">
+              <img src="img/cover3.png" alt="Music Cover 3">
+              <a href="card3.html" class="play-button"></a>
+            </div>
+            <div class="music-card">
+              <img src="img/cover4.png" alt="Music Cover 4">
+              <a href="card4.html" class="play-button"></a>
+            </div>
+          </div>
+          
+          <h1 class="title">Listen by categories</h1>
+          <div class="container">
+            <div class="row">
+              <div class="card">
+                <div class="card-title">Pop</div>
+              </div>
+              
+              <div class="card">
+                <div class="card-title">Rock</div>
+              </div>
+              
+              <div class="card">
+                <div class="card-title">Hip Hop</div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="card">
+                  <div class="card-title">Country</div>
+                </div>
+                
+                <div class="card">
+                  <div class="card-title">Albanian</div>
+                </div>
+                
+                <div class="card">
+                  <div class="card-title">Classical</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="card">
+                  <div class="card-title">English</div>
+                </div>
+                
+                <div class="card">
+                  <div class="card-title">Deep House</div>
+                </div>
+                
+                <div class="card">
+                  <div class="card-title">Turkish</div>
+                </div>
+              </div>
+          </div>
+          
+    </div>
+</body>
+
+<script>
+    let btn = document.querySelector('#btn')
+    let sidebar = document.querySelector('.sidebar')
+
+    btn.onclick = function () {
+        sidebar.classList.toggle('active')
+    };
+</script>
+
+<script src="main.js"></script>
+</html>
