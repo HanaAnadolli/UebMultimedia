@@ -166,3 +166,38 @@
     width: calc(100% - 80px);
     padding: 1rem;
 }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+  }
+  
+  th {
+    background-color: #111;
+  }
+  
+  .play-pause-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+  }
+  
+  .favorite-heart {
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .favorite-heart.active {
+    color: red;
+  }
