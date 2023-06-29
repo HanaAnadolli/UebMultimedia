@@ -84,7 +84,7 @@ body {
     }
     
     .user p {
-        color: #fff;
+        color: rgb(255,255,255);
         opacity: 1;
         margin-left: 1rem;
     }
@@ -111,7 +111,7 @@ body {
     }
     
     .sidebar ul li a {
-        color: #fff;
+        color: rgb(255,255,255);
         display: flex;
         align-items: center;
         text-decoration: none;
@@ -121,7 +121,7 @@ body {
     .sidebar ul li a:hover {
         background: rgb(131,73,255);
         background: linear-gradient(90deg, rgba(131,73,255,1) 0%, rgba(255,31,162,1) 100%);
-        color: #fff;
+        color: rgb(255,255,255);
     }  
     
     .sidebar ul li a i {
@@ -185,7 +185,7 @@ body {
       border: 1px solid transparent;
       padding: 30px;
       border-radius: 20px;
-      background-color: #ddd;
+      background-color: rgb(255,255,255);
       box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
     
@@ -200,7 +200,7 @@ body {
     margin: 25px;
     height: 250px;
     width: 250px;
-    border:2px solid 	#FFFAFA;
+    border:2px solid rgb(255,255,255);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
@@ -264,7 +264,7 @@ body {
     -moz-appearance: none;
     appearance: none;
     height: 5px;
-    background: #83A9FF;
+    background:  rgba(154, 154, 234, 0.653);
     -webkit-transition: .2s;
     transition: opacity .2s;
     }
@@ -276,8 +276,8 @@ body {
     appearance: none;
     width: 15px;
     height: 15px;
-    background: white;
-    border: 3px solid #3774FF;
+    background: rgb(255,255,255);
+    border: 3px solid rgb(82, 82, 182);
     cursor: grab;
     border-radius: 100%;
     }
@@ -334,7 +334,7 @@ body {
       align-items: center;
     }
     .loader .stroke{
-        background: #f1f1f1;
+        background: rgb(255,255,255);
         height: 150%;
         width: 10px;
         border-radius: 50px;
@@ -344,11 +344,11 @@ body {
       @keyframes animate {
         50% {
           height: 20%;
-          background: #4286f4;
+          background: rgb(82, 82, 182);
         }
     
         100% {
-          background: #4286f4;
+          background: rgb(82, 82, 182);
           height: 100%;
         }
       }
